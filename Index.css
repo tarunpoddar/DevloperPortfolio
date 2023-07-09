@@ -1,69 +1,108 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgb(5, 150, 70);
-    height: 70px;
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(5, 150, 70);
+  height: 70px;
 }
 
-nav div ul{
-    display: flex;
-    list-style: none;
-    justify-content: center;
-}
-a{
-    text-decoration: none;
-}
-a:hover{
-    font-size: 1.1rem;
+nav div ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
 }
 
-nav div ul li{
-    margin:0 25px;
+a {
+  text-decoration: none;
+}
+nav div ul a:hover {
+  font-size: 1.1rem;
+  color: rgb(3, 58, 3);
 }
 
-.leftdivnav{
-    font-size: 2.5rem;
+nav div ul li {
+  margin: 0 25px;
 }
 
-body{
-    background-color: rgb(4, 94, 44);
+.leftdivnav {
+  font-size: 2.5rem;
 }
 
-.firstSectionDiv{
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-}
-.firstSectionHeading{
-    display: flex;
-    justify-content:  center;
-    align-items: center;
-}
-.secondSectionDiv{
-    background-image:url('.\\Images\\bg_img.png');
-    background-attachment: fixed;
-    background-size: cover;
+body {
+  background-color: rgb(3, 75, 35);
 }
 
-.myimage{
-    border-radius: 210px;
-    width: 267px;
-    height: 285px;
+.firstSectionDiv {
+  display: flex;
+  justify-content: space-around;
+  padding: 90px 40px;
+}
+.firstSectionHeading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 2rem;
 }
 
-hr{
-    margin:10px 20px;
+.resume-button {
+  height: 7vh;
+  color: #fcfffc;
+  background-color: #059646;
+  margin: 37px 0px;
+  border: none;
+  border-radius: 10px;
+  padding: 14px;
+}
+.resume-button:hover {
+  cursor: pointer;
+}
+.resume-button:active {
+  border: 2px solid;
+  border-color: #fcfffc;
+}
+.secondSectionDiv {
+  background-image: url(".\\Images\\bg_img.png");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-footer div{
-    display: flex;
-    justify-content: center;
+.myimage {
+  border-radius: 210px;
+  width: 267px;
+  height: 285px;
+}
+
+#myspan {
+  color: rgb(11, 250, 118);
+}
+
+.greenText {
+  color: rgb(11, 250, 118);
+}
+
+hr {
+  margin: 10px 20px;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+}
+footer > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
