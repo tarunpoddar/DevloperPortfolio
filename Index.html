@@ -23,7 +23,7 @@
     <main>
       <section>
         <div class="firstSectionDiv">
-          <div class="firstSectionHeading">
+          <div class="firstSectionHeading" onscroll="runTypedAnimation()">
             <div>
               <p>
                 Hello, I am <span class="greenText">Tarun Kumar Poddar</span
@@ -33,10 +33,37 @@
               </p>
             </div>
             <div>
-              <button class="resume-button">Download Resume</button>
+              <button class="resume-button" onclick="downloadResume()">
+                Download Resume
+              </button>
+            </div>
+            <div class="icon-div">
+              <a
+                href="https://www.linkedin.com/in/tarun-poddar-8267b811b/"
+                target="_blank"
+              >
+                <input
+                  class="icon"
+                  type="image"
+                  alt="submit"
+                  src="Images\ln.png"
+                  id="ln-icon"
+                  name="ln-icon"
+                />
+              </a>
+              <a href="https://github.com/tarunpoddar" target="_blank">
+                <input
+                  class="icon"
+                  type="image"
+                  alt="submit"
+                  src="Images\github-logo.jpg"
+                  id="github-icon"
+                  name="github-icon"
+                />
+              </a>
             </div>
           </div>
-          <div>
+          <div class="img-div">
             <img class="myimage" src="Images\Photo.jpg" />
           </div>
         </div>

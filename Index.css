@@ -44,6 +44,7 @@ body {
   justify-content: space-around;
   padding: 90px 40px;
 }
+
 .firstSectionHeading {
   display: flex;
   justify-content: center;
@@ -62,21 +63,30 @@ body {
 }
 .resume-button:hover {
   cursor: pointer;
+  border: 2px solid;
+  border-color: #fcfffc;
 }
 .resume-button:active {
   border: 2px solid;
-  border-color: #fcfffc;
+  border-color: #021d02;
 }
 .secondSectionDiv {
   background-image: url(".\\Images\\bg_img.png");
   background-attachment: fixed;
   background-size: cover;
 }
-
 .myimage {
   border-radius: 210px;
-  width: 267px;
+  width: 285px;
   height: 285px;
+}
+.myimage:hover {
+  border: 2px solid;
+  border-color: #fcfffc;
+}
+.img-div {
+  height: 288px;
+  width: 288px;
 }
 
 #myspan {
@@ -105,4 +115,18 @@ footer > div {
   justify-content: center;
   align-items: center;
   padding: 20px;
+}
+.icon {
+  border-radius: 83px;
+  width: 38px;
+  height: 38px;
+}
+.firstSectionHeading > div > a > input:active {
+  border: 2px solid #021d02;
+}
+.firstSectionHeading > div > a > input:hover {
+  border: 2px solid;
+}
+.icon-div {
+  height: 20px;
 }
