@@ -5,16 +5,22 @@
     <title>Tarun's Developer Portfolio</title>
     <link rel="icon" type="image" href="Images\portfolio_ico.png" />
     <link rel="stylesheet" href="Index.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
   </head>
   <body>
     <!-- Navigation bar -->
     <header>
-      <nav>
+      <nav id="nav">
         <div class="leftdivnav">Tarun's Portfolio</div>
-        <div>
+        <div class = "rightdivnav">
           <ul>
-            <li><a href=".\Index.html">Home</a></li>
-            <li><a href=".\Contact.html">Contact</a></li>
+            <li><a href="#nav">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="">Skills</a></li>
+            <li><a href="">Education</a></li>
+            <li><a href="">Work</a></li>
+            <li><a href="">Experience</a></li>
+            <li><a href="">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -22,7 +28,7 @@
     <!-- Main content -->
     <main>
       <section>
-        <div class="firstSectionDiv">
+        <div class="SectionDiv">
           <div class="firstSectionHeading" onscroll="runTypedAnimation()">
             <div>
               <p>
@@ -63,17 +69,35 @@
               </a>
             </div>
           </div>
-          <div class="img-div">
+          <div class="myimage-div">
             <img class="myimage" src="Images\Photo.jpg" />
           </div>
         </div>
+        <div class="div-hr"></div>
       </section>
-      <hr />
+    <!-- About content -->
       <section>
-        <div class="secondSectionDiv">
-          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <h2 id="about">About Me</h2>
+        <div class="row">
+          <div class="aboutimage-div">
+            <img
+              class="aboutimage"
+              src="Images\tarun-developer.jpg"
+            />
+          </div>
+          <div class="p-div">
+            <h3>I'm Tarun</h3>
+            <h4>Full Stack Developer</h4>
+            <p>
+              I am a skilled software engineer specializing in Dot Net Full Stack
+              technologies. With a strong problem-solving aptitude and
+              experience in developing efficient solutions, I am passionate
+              about leveraging cutting-edge technologies to create innovative
+              software solutions. My dedication to continuous learning and
+              collaboration allows me to thrive in dynamic environments and
+              deliver high-quality results.
+            </p>
+          </div>
         </div>
       </section>
     </main>
