@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", sans-serif;
   color: white;
 }
 
@@ -28,21 +28,25 @@ nav div ul a:hover {
 }
 
 nav div ul li {
-  margin: 0 25px;
+  margin: 0 0.5rem;
 }
 
 .leftdivnav {
   font-size: 2.5rem;
 }
 
+.rightdivnav{
+  min-width: 33rem;
+}
+
 body {
   background-color: rgb(3, 75, 35);
 }
 
-.firstSectionDiv {
+.SectionDiv {
   display: flex;
-  justify-content: space-around;
-  padding: 90px 40px;
+  justify-content: space-evenly;
+  padding: 140px 30px;
 }
 
 .firstSectionHeading {
@@ -53,40 +57,55 @@ body {
 }
 
 .resume-button {
-  height: 7vh;
+  min-height: 3rem;
   color: #fcfffc;
   background-color: #059646;
-  margin: 37px 0px;
+  margin: 2rem 0rem;
   border: none;
   border-radius: 10px;
-  padding: 14px;
+  padding: 10px;
 }
+
 .resume-button:hover {
   cursor: pointer;
   border: 2px solid;
   border-color: #fcfffc;
 }
+
 .resume-button:active {
   border: 2px solid;
   border-color: #021d02;
 }
-.secondSectionDiv {
+
+.div-hr {
   background-image: url(".\\Images\\bg_img.png");
   background-attachment: fixed;
   background-size: cover;
+  height: 100px;
 }
+
+.myimage-div{
+  min-width: 21rem;
+  min-height: 22rem;
+}
+
 .myimage {
-  border-radius: 210px;
-  width: 285px;
-  height: 285px;
+  margin: 0rem;
+  width: 20rem;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  will-change: transform; 
+  transform: perspective(1000px) 
+  rotateX(-8deg) 
+  rotateY(-8deg) 
 }
+
 .myimage:hover {
   border: 2px solid;
   border-color: #fcfffc;
-}
-.img-div {
-  height: 288px;
-  width: 288px;
+  box-shadow: 0 5px 100px rgba(0, 0, 0, 0.6);
 }
 
 #myspan {
@@ -106,6 +125,7 @@ footer div {
   justify-content: center;
 }
 footer {
+  background-color: rgb(5, 150, 70);
   display: flex;
   height: 200px;
   justify-content: center;
@@ -129,4 +149,51 @@ footer > div {
 }
 .icon-div {
   height: 20px;
+}
+
+h2 {
+  text-align: center;
+  padding: 50px 0px;
+}
+
+h4 {
+  padding: 10px 0px 10px 0px;
+}
+
+.p-div{
+  width: 30rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: nowrap;
+  justify-content: center;
+  flex: 1 1 35rem;
+}
+
+.aboutimage-div{
+  min-width: 39rem;
+  min-height: 33rem;
+}
+
+.aboutimage {
+  margin: 4rem;
+  width: 30rem;
+  height: auto;
+  border-radius: 5%;
+  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  will-change: transform; 
+  transform: perspective(1000px) 
+  rotateX(8deg) 
+  rotateY(8deg) 
+}
+
+.aboutimage:hover {
+  border: 2px solid;
+  border-color: #fcfffc;
+  box-shadow: 0 50px 100px rgba(0, 0, 0, 0.6);
 }
