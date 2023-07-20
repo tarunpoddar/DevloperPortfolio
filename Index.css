@@ -10,7 +10,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   background-color: rgb(5, 150, 70);
-  height: 70px;
+  height: 4rem;
 }
 
 nav div ul {
@@ -35,7 +35,7 @@ nav div ul li {
   font-size: 2.5rem;
 }
 
-.rightdivnav{
+.rightdivnav {
   min-width: 33rem;
 }
 
@@ -46,7 +46,7 @@ body {
 .SectionDiv {
   display: flex;
   justify-content: space-evenly;
-  padding: 140px 30px;
+  padding: 10rem 0rem;
 }
 
 .firstSectionHeading {
@@ -62,8 +62,8 @@ body {
   background-color: #059646;
   margin: 2rem 0rem;
   border: none;
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
 }
 
 .resume-button:hover {
@@ -81,31 +81,40 @@ body {
   background-image: url(".\\Images\\bg_img.png");
   background-attachment: fixed;
   background-size: cover;
-  height: 100px;
+  height: 7rem;
 }
 
-.myimage-div{
-  min-width: 21rem;
-  min-height: 22rem;
+.image-anim {
+  height: auto;
+  box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  will-change: transform;
+  transition: 0.3s;
+  transform: perspective(1000px) rotateX(-8deg) rotateY(-8deg);
 }
 
 .myimage {
   margin: 0rem;
   width: 20rem;
-  height: auto;
   border-radius: 50%;
-  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.6);
-  cursor: pointer;
-  will-change: transform; 
-  transform: perspective(1000px) 
-  rotateX(-8deg) 
-  rotateY(-8deg) 
 }
 
-.myimage:hover {
+.icon {
+  border-radius: 7rem;
+  width: 3rem;
+  height: auto;
+}
+
+.firstSectionHeading > div > a > input:active {
+  border: 2px solid #021d02;
+}
+
+.firstSectionHeading > div > a > input:hover {
   border: 2px solid;
-  border-color: #fcfffc;
-  box-shadow: 0 5px 100px rgba(0, 0, 0, 0.6);
+}
+
+.icon-div {
+  height: 20px;
 }
 
 #myspan {
@@ -116,51 +125,34 @@ body {
   color: rgb(11, 250, 118);
 }
 
-hr {
-  margin: 10px 20px;
-}
-
 footer div {
   display: flex;
   justify-content: center;
 }
+
 footer {
   background-color: rgb(5, 150, 70);
   display: flex;
-  height: 200px;
+  height: 15rem;
   justify-content: center;
 }
+
 footer > div {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-}
-.icon {
-  border-radius: 83px;
-  width: 38px;
-  height: 38px;
-}
-.firstSectionHeading > div > a > input:active {
-  border: 2px solid #021d02;
-}
-.firstSectionHeading > div > a > input:hover {
-  border: 2px solid;
-}
-.icon-div {
-  height: 20px;
 }
 
 h2 {
   text-align: center;
-  padding: 50px 0px;
+  padding: 3rem 0rem;
 }
 
 h4 {
-  padding: 10px 0px 10px 0px;
+  padding: 1rem 0rem 1rem 0rem;
 }
 
-.p-div{
+.p-div {
   width: 30rem;
 }
 
@@ -174,26 +166,14 @@ h4 {
   flex: 1 1 35rem;
 }
 
-.aboutimage-div{
-  min-width: 39rem;
-  min-height: 33rem;
-}
-
 .aboutimage {
   margin: 4rem;
   width: 30rem;
-  height: auto;
   border-radius: 5%;
-  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.6);
-  cursor: pointer;
-  will-change: transform; 
-  transform: perspective(1000px) 
-  rotateX(8deg) 
-  rotateY(8deg) 
 }
 
-.aboutimage:hover {
-  border: 2px solid;
-  border-color: #fcfffc;
+.myimage:hover, .aboutimage:hover {
   box-shadow: 0 50px 100px rgba(0, 0, 0, 0.6);
+  transition: 0.3s;
+  transform: perspective(100rem) rotateX(8deg) rotateY(8deg);
 }
