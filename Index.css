@@ -19,10 +19,14 @@ nav div ul {
   justify-content: center;
 }
 
+footer div div div ul {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
 }
-nav div ul a:hover {
+nav div ul a:hover,footer div div div ul a:hover  {
   font-size: 1.1rem;
   color: rgb(3, 58, 3);
 }
@@ -99,6 +103,10 @@ body {
   border-radius: 50%;
 }
 
+.company-logos{
+  margin:"auto" ;
+}
+
 .icon {
   border-radius: 7rem;
   width: 3rem;
@@ -125,22 +133,38 @@ body {
   color: rgb(11, 250, 118);
 }
 
-footer div {
+.blackText {
+  color: black;
+}
+
+.box-container {
   display: flex;
+}
+
+.box-container .box {
+  display: grid;
+  flex: 1 1 21rem;
+  margin: 2.5rem;
   justify-content: center;
 }
 
 footer {
   background-color: rgb(5, 150, 70);
   display: flex;
-  height: 15rem;
   justify-content: center;
+  min-height: auto;
+  padding-top: 0;
 }
 
-footer > div {
+.copyright {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin: 1rem;
+}
+footer > div > hr{
+  margin: 1rem 5rem;
 }
 
 h2 {
@@ -156,14 +180,25 @@ h4 {
   width: 30rem;
 }
 
+.center-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .row {
   display: flex;
   flex-direction: row;
-  align-items: center;
   gap: 2rem;
   flex-wrap: nowrap;
-  justify-content: center;
   flex: 1 1 35rem;
+}
+
+.edu-Image {
+  margin: 0.3rem;
+  width: 12rem;
+  border-radius: 5%;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.6);
 }
 
 .aboutimage {
@@ -172,8 +207,134 @@ h4 {
   border-radius: 5%;
 }
 
-.myimage:hover, .aboutimage:hover {
+.myimage:hover,
+.aboutimage:hover,
+.edu-Image:hover {
+  cursor: pointer;
   box-shadow: 0 50px 100px rgba(0, 0, 0, 0.6);
   transition: 0.3s;
   transform: perspective(100rem) rotateX(8deg) rotateY(8deg);
+}
+
+.skills-container {
+  margin: 0rem 10rem;
+  background-color: #0b3320;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Items wrap to a new line and start from the right when the container height is reduced */
+}
+
+.skills-items {
+  margin: 0.92rem;
+  padding: 20px;
+  border-radius: 1rem;
+  background: rgba(0, 0, 22, 0.9);
+  flex: 0 0 102px; /*Flex-grow: 1 (items can grow), Flex-shrink: 0 (items don't shrink), Flex-basis: 100px (initial size of the items) */
+  transition: 102px 0.3s ease;
+}
+
+.skills-items:hover {
+  background: rgba(37, 134, 20, 0.9);
+  box-shadow: 10px 50px 100px rgba(0, 0, 0, 0.6);
+  transition: 0.3s;
+}
+
+.skills-items-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.exp-div {
+  margin: 0rem 10rem;
+  background-color: white;
+  border-radius: 2rem;
+}
+
+.exp-div-inner {
+  width: 30rem;
+  color: black;
+  border-radius: 5%;
+  background-color: rgb(170, 252, 6);
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 10px 50px 50px rgba(0, 0, 0, 0.6);
+  transition: 0.3s;
+}
+
+.exp-div-inner:hover {
+  background-color: rgba(52, 185, 28, 0.9);
+  transition: 0.3s;
+}
+
+.right-align {
+  align-items: right;
+  justify-content: right;
+}
+.left-align {
+  align-items: left;
+  justify-content: left;
+}
+.edu-div {
+  display: flex;
+  flex-direction: column;
+  background-color: #6dca97;
+}
+
+.get-in-touch-div {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.edu-item-div {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem 15rem;
+  box-shadow: 10px 50px 50px rgba(0, 0, 0, 0.6);
+  transition: 0.3s;
+}
+
+.edu-item-div:hover {
+  box-shadow: 10px 50px 100px rgba(0, 0, 0, 0.6);
+  transition: 0.3s;
+}
+
+.edu-item-div-details {
+  margin: 0rem 2rem;
+  min-width: 35rem;
+}
+
+.contact-details-div {
+  margin: 7rem;
+}
+.contact-details-inner-div {
+  display: flex;
+  align-items: center;
+}
+
+#scroll-top.active {
+  top: calc(100% - 5rem);
+}
+
+#scroll-top {
+  position: fixed;
+  top: -140%;
+  right: 1rem;
+  padding: 1rem 1.5rem;
+  z-index: 1000;
+}
+
+
+.scroll-top-btn{
+  width: 2rem;
+  border-radius: 50%;
 }
