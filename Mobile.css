@@ -61,7 +61,7 @@
     display: grid;
     flex: none;
     margin: 0.5rem 0;
-    justify-content: center;
+    justify-items: center;
   }
 
   .contact-details-div {

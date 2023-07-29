@@ -28,7 +28,8 @@ a {
   text-decoration: none;
 }
 nav div ul a:hover,
-footer div div div ul a:hover {
+footer div div div ul a:hover,
+.box > a:hover {
   font-size: 1.1rem;
   color: rgb(3, 58, 3);
 }
