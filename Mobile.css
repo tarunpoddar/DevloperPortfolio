@@ -56,8 +56,15 @@
     flex-direction: column;
   }
 
+  footer{
+    padding: 1rem;
+  }
+
   footer>div>div>div>h3, footer>div>div>div>p,  footer>div>div>div>ul{
     text-align: center;
   }
 
+  .copyright {
+    flex-direction: column;
+  }
 }
