@@ -12,6 +12,20 @@
 }
 
 @media screen and (max-width: 970px) {
+  .SectionDiv {
+    padding: 1rem;
+  }
+
+  .myimage {
+    margin: 3rem 0 0 0;
+    width: 66vw;
+  }
+
+  .aboutimage {
+    margin: 1rem;
+    width: 90vw;
+  }
+
   .exp-div-inner {
     width: auto;
     margin: 1rem 0;
@@ -51,16 +65,18 @@
 
   .contact-details-div {
     margin: 0;
-}
+  }
   .contact-details-inner-div {
     flex-direction: column;
   }
 
-  footer{
+  footer {
     padding: 1rem;
   }
 
-  footer>div>div>div>h3, footer>div>div>div>p,  footer>div>div>div>ul{
+  footer > div > div > div > h3,
+  footer > div > div > div > p,
+  footer > div > div > div > ul {
     text-align: center;
   }
 
