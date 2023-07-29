@@ -4,10 +4,11 @@
   }
   .rightdivnav > ul {
     flex-direction: column;
+    text-align: center;
   }
   .rightdivnav {
     min-width: auto;
-    font-size: xx-large;
+    font-size: large;
   }
 }
 
@@ -76,7 +77,8 @@
 
   footer > div > div > div > h3,
   footer > div > div > div > p,
-  footer > div > div > div > ul {
+  footer > div > div > div > ul,
+  .edu-item-div-details > .blackText {
     text-align: center;
   }
 

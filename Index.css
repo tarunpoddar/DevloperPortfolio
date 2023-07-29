@@ -240,7 +240,6 @@ h4 {
   border-radius: 1rem;
   background: rgba(0, 0, 22, 0.9);
   flex: 0 0 102px; /*Flex-grow: 1 (items can grow), Flex-shrink: 0 (items don't shrink), Flex-basis: 100px (initial size of the items) */
-  transition: 102px 0.3s ease;
 }
 
 .skills-items:hover {
