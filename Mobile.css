@@ -1,0 +1,63 @@
+@media screen and (max-width: 500px) {
+  #nav {
+    flex-direction: column;
+  }
+  .rightdivnav > ul {
+    flex-direction: column;
+  }
+  .rightdivnav {
+    min-width: auto;
+    font-size: xx-large;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .exp-div-inner {
+    width: auto;
+    margin: 1rem 0;
+  }
+
+  .leftdivnav {
+    font-size: xxx-large;
+  }
+
+  .exp-div {
+    margin: 0px;
+  }
+
+  .skills-container {
+    margin: 0px;
+  }
+
+  .edu-item-div {
+    margin: 1rem 0rem;
+  }
+
+  .edu-item-div-details {
+    margin: 0rem 2rem;
+    min-width: 0rem;
+  }
+
+  .box-container {
+    flex-direction: column;
+  }
+
+  .box-container .box {
+    display: grid;
+    flex: none;
+    margin: 0.5rem 0;
+    justify-content: center;
+  }
+
+  .contact-details-div {
+    margin: 0;
+}
+  .contact-details-inner-div {
+    flex-direction: column;
+  }
+
+  footer>div>div>div>h3, footer>div>div>div>p,  footer>div>div>div>ul{
+    text-align: center;
+  }
+
+}
