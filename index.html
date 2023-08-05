@@ -1,420 +1,401 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tarun's Developer Portfolio</title>
     <link rel="icon" type="image" href="Images\portfolio_ico.png" />
     <link rel="stylesheet" href="Index.css" />
     <link rel="stylesheet" href="Mobile.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://fonts.googleapis.com/css?family=Poppins"
-    />
-  </head>
-  <body>
+    <link rel="stylesheet"
+          type="text/css"
+          href="https://fonts.googleapis.com/css?family=Poppins" />
+</head>
+<body>
     <!-- Navigation bar -->
     <header>
-      <nav id="nav">
-        <div class="leftdivnav">Tarun's Portfolio</div>
-        <div class="rightdivnav">
-          <ul>
-            <li><a class="smooth-scroll-link" href="#nav">Home</a></li>
-            <li><a class="smooth-scroll-link" href="#about">About</a></li>
-            <li><a class="smooth-scroll-link" href="#skills">Skills</a></li>
-            <li><a class="smooth-scroll-link" href="#experience">Experience</a></li>
-            <li><a class="smooth-scroll-link" href="#education">Education</a></li>
-            <li><a class="smooth-scroll-link" href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
+        <nav id="nav">
+            <div class="leftdivnav">Tarun's Portfolio</div>
+            <div class="rightdivnav">
+                <ul>
+                    <li><a class="smooth-scroll-link" href="#nav">Home</a></li>
+                    <li><a class="smooth-scroll-link" href="#about">About</a></li>
+                    <li><a class="smooth-scroll-link" href="#skills">Skills</a></li>
+                    <li><a class="smooth-scroll-link" href="#experience">Experience</a></li>
+                    <li><a class="smooth-scroll-link" href="#education">Education</a></li>
+                    <li><a class="smooth-scroll-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <!-- Main content -->
     <main>
-      <!-- Introduction -->
-      <section>
-        <div class="SectionDiv">
-          <div class="firstSectionHeading" onscroll="runTypedAnimation()">
-            <div>
-              <p>
-                Hello, I am <span class="greenText">Tarun Kumar Poddar</span
-                ><br />
-                I am a passionate <br />
-                <span id="myspan"></span>
-              </p>
+        <!-- Introduction -->
+        <section>
+            <div class="SectionDiv">
+                <div class="firstSectionHeading" onscroll="runTypedAnimation()">
+                    <div>
+                        <p>
+                            Hello, I am <span class="greenText">Tarun Kumar Poddar</span><br />
+                            I am a passionate <br />
+                            <span id="myspan"></span>
+                        </p>
+                    </div>
+                    <div>
+                        <button class="resume-button" onclick="downloadResume()">
+                            Download Resume
+                        </button>
+                    </div>
+                    <div class="icon-div">
+                        <a href="https://www.linkedin.com/in/tarun-poddar-8267b811b/"
+                           target="_blank">
+                            <input class="icon"
+                                   type="image"
+                                   alt="submit"
+                                   src="Images\ln.png" />
+                        </a>
+                        <a href="https://github.com/tarunpoddar" target="_blank">
+                            <input class="icon"
+                                   type="image"
+                                   alt="submit"
+                                   src="Images\github-logo.jpg" />
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=8250112715" target="_blank">
+                            <input class="icon"
+                                   type="image"
+                                   alt="submit"
+                                   src="Images\whatsapp-icon.png" />
+                        </a>
+                        <a href="mailto:tarun.tarun05@gmail.com" target="_blank">
+                            <input class="icon"
+                                   type="image"
+                                   alt="submit"
+                                   src="Images\gmail-icon.png" />
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <img class="myimage image-anim" src="Images\Photo.jpg" />
+                </div>
             </div>
-            <div>
-              <button class="resume-button" onclick="downloadResume()">
-                Download Resume
-              </button>
+            <div class="div-hr"></div>
+        </section>
+        <!-- About -->
+        <section>
+            <h2 id="about">About Me</h2>
+            <div class="row center-align">
+                <div>
+                    <img class="aboutimage image-anim"
+                         src="Images\tarun-developer.jpg" />
+                </div>
+                <div class="p-div">
+                    <h3>I'm Tarun</h3>
+                    <h4>Dot Net Developer</h4>
+                    <p>
+                        I am a skilled software engineer specializing in Dot Net technologies.
+                        With a strong problem-solving aptitude and
+                        experience in developing efficient solutions, I am passionate
+                        about leveraging cutting-edge technologies to create innovative
+                        software solutions. My dedication to continuous learning and
+                        collaboration allows me to thrive in dynamic environments and
+                        deliver high-quality results.
+                    </p>
+                </div>
             </div>
-            <div class="icon-div">
-              <a
-                href="https://www.linkedin.com/in/tarun-poddar-8267b811b/"
-                target="_blank"
-              >
-                <input
-                  class="icon"
-                  type="image"
-                  alt="submit"
-                  src="Images\ln.png"
-                />
-              </a>
-              <a href="https://github.com/tarunpoddar" target="_blank">
-                <input
-                  class="icon"
-                  type="image"
-                  alt="submit"
-                  src="Images\github-logo.jpg"
-                />
-              </a>
-              <a href="https://api.whatsapp.com/send?phone=8250112715" target="_blank">
-                <input
-                  class="icon"
-                  type="image"
-                  alt="submit"
-                  src="Images\whatsapp-icon.png"
-                />
-              </a>
-              <a href="mailto:tarun.tarun05@gmail.com" target="_blank">
-                <input
-                  class="icon"
-                  type="image"
-                  alt="submit"
-                  src="Images\gmail-icon.png"
-                />
-              </a>
+        </section>
+        <!-- Skills & Abilities -->
+        <section>
+            <h2 id="skills">Skills & Abilities</h2>
+            <div class="skills-container">
+                <div class="skills-items">
+                    <div class="item">
+                        <div class="skills-items-info">
+                            <img src="Images\c-sharp-logo.png" alt="C#" />
+                            <span>C#</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-items">
+                    <div class="item">
+                        <div class="skills-items-info">
+                            <img src="Images\dotnet_logo.png" alt="Dot Net Core" />
+                            <span>Dot Net Core</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-items">
+                    <div>
+                        <div class="skills-items-info">
+                            <img width="48" height="48" src="https://img.icons8.com/nolan/64/api-settings.png" alt="api-settings" />
+                            <span>Web Api</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-items">
+                    <div>
+                        <div class="skills-items-info">
+                            <img width="48" height="48" src="https://img.icons8.com/color/48/windows-10.png" alt="windows-10" />
+                            <span>WPF</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-items">
+                    <div>
+                        <div class="skills-items-info">
+                            <img src="Images\git_logo.png" alt="Git" />
+                            <span>Git</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-items">
+                    <div>
+                        <div class="skills-items-info">
+                            <img src="Images\github-logo.jpg" alt="Github" width="50px" />
+                            <span>Github</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-items">
+                    <div>
+                        <div class="skills-items-info">
+                            <img src="Images\kafka-logo.png" alt="kafka" width="50px" />
+                            <span>kafka</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-items">
+                    <div>
+                        <div class="skills-items-info">
+                            <img width="48"
+                                 height="48"
+                                 src="https://img.icons8.com/color/48/html-5--v1.png"
+                                 alt="html-5" />
+                            <span>HTML</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-items">
+                    <div>
+                        <div class="skills-items-info">
+                            <img width="48"
+                                 height="48"
+                                 src="https://img.icons8.com/color/48/css3.png"
+                                 alt="css3" />
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-items">
+                    <div>
+                        <div class="skills-items-info">
+                            <img width="48"
+                                 height="48"
+                                 src="https://img.icons8.com/color/48/javascript--v1.png"
+                                 alt="javascript" />
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-items">
+                    <div>
+                        <div class="skills-items-info">
+                            <img src="Images\angular_logo.png" alt="Angular" />
+                            <span>Angular</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-items">
+                    <div>
+                        <div class="skills-items-info">
+                            <img width="48" height="48" src="https://img.icons8.com/color/48/azure-1.png" alt="azure-1" />
+                            <span>AzureDevops</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div>
-            <img class="myimage image-anim" src="Images\Photo.jpg" />
-          </div>
-        </div>
-        <div class="div-hr"></div>
-      </section>
-      <!-- About -->
-      <section>
-        <h2 id="about">About Me</h2>
-        <div class="row center-align">
-          <div>
-            <img
-              class="aboutimage image-anim"
-              src="Images\tarun-developer.jpg"
-            />
-          </div>
-          <div class="p-div">
-            <h3>I'm Tarun</h3>
-            <h4>Full Stack Developer</h4>
-            <p>
-              I am a skilled software engineer specializing in Dot Net Full
-              Stack technologies. With a strong problem-solving aptitude and
-              experience in developing efficient solutions, I am passionate
-              about leveraging cutting-edge technologies to create innovative
-              software solutions. My dedication to continuous learning and
-              collaboration allows me to thrive in dynamic environments and
-              deliver high-quality results.
-            </p>
-          </div>
-        </div>
-      </section>
-      <!-- Skills & Abilities -->
-      <section>
-        <h2 id="skills">Skills & Abilities</h2>
-        <div class="skills-container">
-          <div class="skills-items">
-            <div class="item">
-              <div class="skills-items-info">
-                <img src="Images\c-sharp-logo.png" alt="C#" />
-                <span>C#</span>
-              </div>
+        </section>
+        <!-- Experience -->
+        <section>
+            <h2 id="experience">Experience</h2>
+            <div class="exp-div">
+                <div class="row">
+                    <div class="center-align">
+                        <img src="Images\siemens_logo.png" alt="Siemens Healthineers" class="company-logos" />
+                    </div>
+                    <div class="exp-div-inner">
+                        <h3 class="blackText">Siemens Healthineers</h3>
+                        <h4 class="blackText">Senior Software Engineer</h4>
+                        <h3 class="blackText">Sep 2021 - Present</h3>
+                        <h4 class="blackText">Skills: C#, .NET Core Web Api, WPF, MVVM, XAML, Prism, Angular, HTML, CSS, Wix</h4>
+                        <p class="blackText">
+                            > Improved features of the existing application for medical Healthcare product ARTIS
+                            ICONO to enhance functionalities images produced by X-ray scanning.<br>
+                            > Worked in the core infrastructure of the application lifecycle management,
+                            monitoring, patient registration, data load and recovery.<br>
+                            > Developed graphics rendering mechanism using Microsoft's DirectX in C++ for
+                            visualization of graphics and text annotations on touchscreen tablet devices.<br>
+                            > Written unit/integration tests using MS Test to the Azure devops build pipeline.<br>
+                            > Developed a web application to view endurance data in charts using Ngx-Charts in
+                            Angular, Typescript, HTML, CSS, JSON and .NET 6 WEB API.<br>
+                            > Participated in design discussions, prototyping of POCs, code reviews, RCA of
+                            issues and provided optimized solutions.<br>
+                            > Created Microsoft Installers (MSI’s) using Wix installer.
+                        </p>
+                    </div>
+                </div>
+                <div class="row left-align">
+                    <div class="exp-div-inner">
+                        <h3 class="blackText">Sasken Technologies</h3>
+                        <h4 class="blackText">Software Engineer</h4>
+                        <h3 class="blackText">Feb 2020 - Sep 2021</h3>
+                        <h4 class="blackText">Skills: C#, .NET Core, WPF, MVVM, XAML, Prism, Kafka.Net, Akka.Net, Inno, Nunit</h4>
+                        <p class="blackText">
+                            > Worked in Automotive domain by developing the .NET Core application for Track
+                            Machines Connected and Plasser & Theurer client.<br>
+                            > Designed software components to get real-time data from running machine
+                            sensors via TCP port and send calculated information to cloud using
+                            micro services with Confluent Kafka to maintain railway tracks.<br>
+                            > Written several Akka.NET actors used for message passing.<br>
+                            > Worked on software design, implementation, and integration in C#.NET Core.<br>
+                            > Developed unit tests using NUnit and Akka.TestKit, created application setup using
+                            lnno Setup, used Git for version control and maintained code quality.
+                        </p>
+                    </div>
+                    <div class="center-align">
+                        <img src="Images\sasken_logo.png" alt="Sasken Technologies" class="company-logos" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="center-align">
+                        <img src="Images\wipro-technologies-logo.png" alt="Wipro Technologies" class="company-logos" />
+                    </div>
+                    <div class="exp-div-inner">
+                        <h3 class="blackText">Wipro Technologies</h3>
+                        <h4 class="blackText">Project Engineer</h4>
+                        <h3 class="blackText">Feb 2018 - Feb 2020</h3>
+                        <h4 class="blackText">Skills: C#, .NET, ASP.NET MVC</h4>
+                        <p class="blackText">
+                            > Contributed to the development of an internet banking application for Llyods Banking Group (UK) by enhancing existing web pages and implementing the MVC pattern.<br>
+                            > Developed a C# console application, automated using Windows task scheduler, to monitor daily alerts and server traffic, ensuring prompt response to critical issues.<br>
+                            > Collaborated with team members in pair-programming sessions, sharing knowledge and fostering a collaborative work environment.<br>
+                            > Demonstrated a proactive approach to bug fixing, addressing issues promptly and efficiently.<br>
+                        </p>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="skills-items">
-            <div class="item">
-              <div class="skills-items-info">
-                <img src="Images\dotnet_logo.png" alt="Dot Net Core" />
-                <span>Dot Net Core</span>
-              </div>
             </div>
-          </div>
-          <div class="skills-items">
-            <div>
-              <div class="skills-items-info">
-                <img src="Images\angular_logo.png" alt="Angular" />
-                <span>Angular</span>
-              </div>
+        </section>
+        <!-- Education -->
+        <section>
+            <h2 id="education">Education</h2>
+            <div class="edu-div">
+                <div class="edu-item-div">
+                    <div>
+                        <img class="edu-Image" src="Images\gcettb_img.jpg" alt="GCETTB" />
+                    </div>
+                    <div class="edu-item-div-details">
+                        <h3 class="blackText">Bachelor of Technology | Computer Science & Engineering</h3>
+                        <h4 class="blackText">Government College of Engineering <br> & Textile Technology, Berhampore <br>8.03 GPA</h4>
+                        <h3 class="blackText">2013 - 2017</h3>
+                    </div>
+                    <div>
+                    </div>
+                </div>
+                <div class="edu-item-div">
+                    <div>
+                        <img class="edu-Image" src="Images\kvnsd_img.png" alt="KVNSD" />
+                    </div>
+                    <div class="edu-item-div-details">
+                        <h3 class="blackText">Higher Secondary | PCM & Computer Science</h3>
+                        <h4 class="blackText">Kendriya Vidyalaya Nasirabad, Ajmer, Rajasthan <br>79.6%</h4>
+                        <h3 class="blackText">2011 - 2012</h3>
+                    </div>
+                    <div>
+                    </div>
+                </div>
+                <div class="edu-item-div">
+                    <div>
+                        <img class="edu-Image" src="Images\kvsl_img.jpg" alt="KVSL" />
+                    </div>
+                    <div class="edu-item-div-details">
+                        <h3 class="blackText">Secondary</h3>
+                        <h4 class="blackText">Kendriya Vidyalaya Sikh Lines, Meerut Cantt, UP <br>8.4 CGPA</h4>
+                        <h3 class="blackText">2009 - 2010</h3>
+                    </div>
+                    <div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="skills-items">
-            <div>
-              <div class="skills-items-info">
-                <img src="Images\bootstrap_logo.png" alt="Bootstrap" />
-                <span>Bootstrap</span>
-              </div>
+        </section>
+        <!-- Get In Touch -->
+        <Section>
+            <h2 id="contact">Get In Touch</h2>
+            <div class="get-in-touch-div">
+                <div>
+                    <img class="contact-img" src="Images\contactme.png" />
+                </div>
+                <div class="blackText contact-details-div">
+                    <div class="contact-details-inner-div">
+                        <img width="48" height="48" src="https://img.icons8.com/color/48/user.png" alt="user" />
+                        <h3 class="blackText">Tarun Kumar Poddar</h3>
+                    </div>
+                    <div class="contact-details-inner-div">
+                        <img width="48" height="48" src="https://img.icons8.com/color/48/apple-phone.png" alt="apple-phone" />
+                        <a href="https://api.whatsapp.com/send?phone=8250112715" target="_blank">
+                            <h4 class="blackText">+91-8250112715</h4>
+                        </a>
+                    </div>
+                    <div class="contact-details-inner-div">
+                        <img width="48" height="48" src="https://img.icons8.com/color/48/message-squared.png" alt="message-squared" />
+                        <a href="mailto:tarun.tarun05@gmail.com" target="_blank">
+                            <h4 class="blackText">tarun.tarun05@gmail.com</h4>
+                        </a>
+                    </div>
+                    <div class="contact-details-inner-div">
+                        <img width="48" height="48" src="https://img.icons8.com/color/48/marker--v1.png" alt="marker--v1" />
+                        <h4 class="blackText">Bangalore, India</h4>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="skills-items">
-            <div>
-              <div class="skills-items-info">
-                <img src="Images\git_logo.png" alt="Git" />
-                <span>Git</span>
-              </div>
-            </div>
-          </div>
-          <div class="skills-items">
-            <div>
-              <div class="skills-items-info">
-                <img src="Images\github-logo.jpg" alt="Github" width="50px" />
-                <span>Github</span>
-              </div>
-            </div>
-          </div>
-          <div class="skills-items">
-            <div>
-              <div class="skills-items-info">
-                <img src="Images\kafka-logo.png" alt="kafka" width="50px" />
-                <span>kafka</span>
-              </div>
-            </div>
-          </div>
-          <div class="skills-items">
-            <div>
-              <div class="skills-items-info">
-                <img
-                  width="48"
-                  height="48"
-                  src="https://img.icons8.com/color/48/html-5--v1.png"
-                  alt="html-5"
-                />
-                <span>HTML</span>
-              </div>
-            </div>
-          </div>
-          <div class="skills-items">
-            <div>
-              <div class="skills-items-info">
-                <img
-                  width="48"
-                  height="48"
-                  src="https://img.icons8.com/color/48/css3.png"
-                  alt="css3"
-                />
-                <span>CSS</span>
-              </div>
-            </div>
-          </div>
-          <div class="skills-items">
-            <div>
-              <div class="skills-items-info">
-                <img
-                  width="48"
-                  height="48"
-                  src="https://img.icons8.com/color/48/javascript--v1.png"
-                  alt="javascript"
-                />
-                <span>JavaScript</span>
-              </div>
-            </div>
-          </div>
-          <div class="skills-items">
-            <div>
-              <div class="skills-items-info">
-                <img
-                  width="48"
-                  height="48"
-                  src="https://img.icons8.com/color/48/microsoft-sql-server.png"
-                  alt="microsoft-sql-server"
-                />
-                <span>SQL Server</span>
-              </div>
-            </div>
-          </div>
-          <div class="skills-items">
-            <div>
-              <div class="skills-items-info">
-                <img
-                  width="48"
-                  height="48"
-                  src="https://img.icons8.com/color/48/jira.png"
-                  alt="jira"
-                />
-                <span>JIRA</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Experience -->
-      <section>
-        <h2 id="experience">Experience</h2>
-        <div class="exp-div">
-          <div class="row">
-            <div class="center-align">
-              <img src="Images\siemens_logo.png" alt="Siemens Healthineers" class="company-logos"/>
-            </div>
-            <div class="exp-div-inner">
-              <h3 class="blackText">Siemens Healthineers</h3>
-              <h4 class="blackText">Senior Software Engineer</h4>
-              <h3 class="blackText">Sep 2021 - Present</h3>
-              <p class="blackText">
-                > Played a pivotal role in the development and enhancement of the flagship product ARTIS ICONO, which significantly improved X-ray scanning capabilities.<br>
-                > Collaborated with a cross-functional team to design, implement, and integrate software solutions.<br>
-                > Led the development of critical infrastructure components responsible for the lifecycle management and application recovery, ensuring seamless operation and data integrity.<br>
-                > Utilized Microsoft's DirectX technology to create an advanced graphics rendering mechanism for visualization on tablets, enhancing the user experience for medical professionals.<br>
-                > Actively participated in major design discussions, prototyped proof-of-concepts, and conducted comprehensive code reviews to ensure optimal performance and adherence to coding standards.<br>
-                > Demonstrated a proactive and analytical approach to bug fixing, resulting in efficient solutions for moderate bug fixes.<br>
-                > Conducted thorough code analysis to identify and resolve performance bottlenecks, improving application efficiency and responsiveness.<br>
-              </p>
-            </div>
-          </div>
-          <div class="row left-align">
-            <div class="exp-div-inner">
-              <h3 class="blackText">Sasken Technologies</h3>
-              <h4 class="blackText">Software Engineer</h4>
-              <h3 class="blackText">Feb 2020 - Sep 2021</h3>
-              <p class="blackText">
-                > Contributed significantly to the improvement of the railway track maintenance system, making it more efficient and reliable.<br>
-                > Spearheaded the development and integration of software components to acquire real-time data from running machine sensors via TCP ports, and processed and transmitted this data to the cloud using Apache Kafka. This data was utilized for predictive maintenance of railway tracks.<br>
-                > Designed and implemented unit tests using Akka.TestKit, ensuring the stability and accuracy of software components.<br>
-                > Created robust application setups using Inno Setup, streamlining deployment processes.<br>
-                > Assumed responsibility for maintaining code quality through thorough code reviews, providing constructive feedback to team members, and actively seeking opportunities to improve software design and implementation.<br>
-              </p>
-            </div>
-            <div class="center-align">
-              <img src="Images\sasken_logo.png" alt="Sasken Technologies" class="company-logos"/>
-            </div>
-          </div>
-          <div class="row">
-            <div class="center-align">
-              <img src="Images\wipro-technologies-logo.png" alt="Wipro Technologies" class="company-logos"/>
-            </div>
-            <div class="exp-div-inner">
-              <h3 class="blackText">Wipro Technologies</h3>
-              <h4 class="blackText">Project Engineer</h4>
-              <h3 class="blackText">Feb 2018 - Feb 2020</h3>
-              <p class="blackText">
-                > Contributed to the development of an internet banking application for Llyods Banking Group (UK) by enhancing existing web pages and implementing the MVC pattern.<br>
-                > Developed a C# console application, automated using Windows task scheduler, to monitor daily alerts and server traffic, ensuring prompt response to critical issues.<br>
-                > Collaborated with team members in pair-programming sessions, sharing knowledge and fostering a collaborative work environment.<br>
-                > Demonstrated a proactive approach to bug fixing, addressing issues promptly and efficiently.<br>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      </section>
-      <!-- Education -->
-      <section>
-        <h2 id="education">Education</h2>
-        <div class="edu-div">
-          <div class="edu-item-div">
-            <div>
-              <img class="edu-Image" src="Images\gcettb_img.jpg" alt="GCETTB"/>
-            </div>
-            <div class="edu-item-div-details">
-              <h3 class="blackText">Bachelor of Technology | Computer Science & Engineering</h3>
-              <h4 class="blackText">Government College of Engineering <br> & Textile Technology, Berhampore <br>8.03 GPA</h4>
-              <h3 class="blackText">2013 - 2017</h3>
-            </div>
-            <div>
-            </div>
-          </div>
-          <div class="edu-item-div">
-            <div>
-              <img class="edu-Image" src="Images\kvnsd_img.png" alt="KVNSD"/>
-            </div>
-            <div class="edu-item-div-details">
-              <h3 class="blackText">Higher Secondary | PCM & Computer Science</h3>
-              <h4 class="blackText">Kendriya Vidyalaya Nasirabad, Ajmer, Rajasthan <br>79.6%</h4>
-              <h3 class="blackText">2011 - 2012</h3>
-            </div>
-            <div>
-            </div>
-          </div>
-          <div class="edu-item-div">
-            <div>
-              <img class="edu-Image" src="Images\kvsl_img.jpg" alt="KVSL"/>
-            </div>
-            <div class="edu-item-div-details">
-              <h3 class="blackText">Secondary</h3>
-              <h4 class="blackText">Kendriya Vidyalaya Sikh Lines, Meerut Cantt, UP <br>8.4 CGPA</h4>
-              <h3 class="blackText">2009 - 2010</h3>
-            </div>
-            <div>
-            </div>
-          </div>
-      </div>
-      </section>
-      <!-- Get In Touch -->
-      <Section>
-        <h2 id="contact">Get In Touch</h2>
-        <div class="get-in-touch-div">
-          <div>
-            <img class="contact-img" src="Images\contactme.png"/>
-          </div>
-          <div class="blackText contact-details-div">
-            <div class="contact-details-inner-div">
-              <img width="48" height="48" src="https://img.icons8.com/color/48/user.png" alt="user"/>
-              <h3 class="blackText">Tarun Kumar Poddar</h3>
-            </div>
-            <div class="contact-details-inner-div">
-              <img width="48" height="48" src="https://img.icons8.com/color/48/apple-phone.png" alt="apple-phone"/>
-              <a href="https://api.whatsapp.com/send?phone=8250112715" target="_blank">
-                <h4 class="blackText">+91-8250112715</h4>
-              </a>
-            </div>
-            <div class="contact-details-inner-div">
-              <img width="48" height="48" src="https://img.icons8.com/color/48/message-squared.png" alt="message-squared"/>
-              <a href="mailto:tarun.tarun05@gmail.com" target="_blank">
-                <h4 class="blackText">tarun.tarun05@gmail.com</h4>
-              </a>
-            </div>
-            <div class="contact-details-inner-div">
-              <img width="48" height="48" src="https://img.icons8.com/color/48/marker--v1.png" alt="marker--v1"/>
-              <h4 class="blackText">Bangalore, India</h4>
-            </div>
-          </div>
-        </div>
-      </Section>
+        </Section>
     </main>
     <!-- Footer -->
     <footer>
-      <div>
-        <div class="box-container">
-          <div class="box">
-              <h3>Tarun's Portfolio</h3>
-              <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br> <br> Keep Rising 🚀. Connect with me over live chat!</p>
-          </div>
-          <div class="box">
-              <h3>Quick links</h3>
-              <ul>
-                <li><a class="smooth-scroll-link" href="#nav">home</a></li>
-                <li><a class="smooth-scroll-link" href="#about">about</a></li>
-                <li><a class="smooth-scroll-link" href="#skills">skills</a></li>
-                <li><a class="smooth-scroll-link" href="#experience">experience</a></li>
-                <li><a class="smooth-scroll-link" href="#education">education</a></li>
-              </ul>
-          </div>
-          <div class="box">
-              <h3>Contact info</h3>
-              <p>+91 8250112715</p>
-              <p>tarun.tarun05@gmail.com</p>
-              <p>Bangalore, India</p>
-          </div>
+        <div>
+            <div class="box-container">
+                <div class="box">
+                    <h3>Tarun's Portfolio</h3>
+                    <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br> <br> Keep Rising 🚀. Connect with me over live chat!</p>
+                </div>
+                <div class="box">
+                    <h3>Quick links</h3>
+                    <ul>
+                        <li><a class="smooth-scroll-link" href="#nav">home</a></li>
+                        <li><a class="smooth-scroll-link" href="#about">about</a></li>
+                        <li><a class="smooth-scroll-link" href="#skills">skills</a></li>
+                        <li><a class="smooth-scroll-link" href="#experience">experience</a></li>
+                        <li><a class="smooth-scroll-link" href="#education">education</a></li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <h3>Contact info</h3>
+                    <p>+91 8250112715</p>
+                    <p>tarun.tarun05@gmail.com</p>
+                    <p>Bangalore, India</p>
+                </div>
+            </div>
+            <hr>
+            <div class="copyright">
+                <span>Copyright © 2023 | Designed With </span>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/hearts.png" alt="hearts" />
+                <span>By Tarun Kumar Poddar</span>
+            </div>
         </div>
-        <hr>
-        <div class="copyright">
-          <span>Copyright © 2023 | Designed With </span>
-          <img width="48" height="48" src="https://img.icons8.com/color/48/hearts.png" alt="hearts"/>
-          <span>By Tarun Kumar Poddar</span>
-        </div>
-      </div>
     </footer>
     <a href="#nav" aria-label="ScrollTop" class="active smooth-scroll-link" id="scroll-top">
-      <img class="scroll-top-btn" src="Images\top-gif.gif" />
+        <img class="scroll-top-btn" src="Images\top-gif.gif" />
     </a>
     <!-- Scripts -->
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="Index.js"></script>
-  </body>
+</body>
 </html>
