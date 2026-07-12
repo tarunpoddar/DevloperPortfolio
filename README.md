@@ -2,6 +2,8 @@
 
 This is my developer portfolio.
 
+AI Generated Portfolio: https://tarun-poddar-portfolio.ai.studio/
+
 Portfolio Link : https://tarunpoddar.github.io/DevloperPortfolio/
 
 Designed and developed by exclusively by me purely in HTML, CSS and JavaScript.
